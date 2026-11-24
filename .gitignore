@@ -1,0 +1,16 @@
+# Secretos y configuración local
+.env
+.env.*
+*.pem
+*.key
+auth*.json
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Artefactos de Power Platform exportados localmente
+*.zip
+src/

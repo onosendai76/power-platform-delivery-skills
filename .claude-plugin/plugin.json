@@ -1,0 +1,12 @@
+{
+  "name": "power-platform-delivery",
+  "version": "0.3.0",
+  "description": "Open skills for AI agents to build and ship Power Platform solutions with schema discovery, scoped vertical slices and evidence for every step.",
+  "author": {
+    "name": "Bruno de los Ríos (Under the Platform)",
+    "url": "https://undertheplatform.com"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/onosendai76/power-platform-delivery-skills",
+  "keywords": ["power-platform", "power-apps", "canvas", "dataverse", "alm", "skills"]
+}

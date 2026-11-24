@@ -1,0 +1,14 @@
+{
+  "name": "power-platform-delivery-skills",
+  "owner": {
+    "name": "Under the Platform",
+    "url": "https://undertheplatform.com"
+  },
+  "plugins": [
+    {
+      "name": "power-platform-delivery",
+      "source": "./",
+      "description": "Delivery discipline for AI agents building Power Platform solutions: schema first, vertical slice, evidence per state."
+    }
+  ]
+}
