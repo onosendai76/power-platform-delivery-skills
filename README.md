@@ -51,6 +51,20 @@ Pídele al agente la app como una historia de usuario: quién, qué necesita, cu
 3. compile, publique y valide en Player como pasos separados,
 4. te devuelva solo las decisiones de negocio y documente el resto.
 
+## Así se ve en uso
+
+Claude Code, recién instalado el plugin. Basta con preguntar por una tarea de Canvas sobre Dataverse: la skill se activa sola, sin nombrarla.
+
+![La skill se carga automáticamente al preguntar por una pantalla Canvas sobre Dataverse](docs/img/01-activacion.png)
+
+Antes de tocar nada, el agente separa lo que debe preguntar de lo que puede resolver, propone leer el esquema real y fija qué no se puede tocar.
+
+![Plan del agente: preguntas de negocio, descubrimiento del esquema, diseño e implementación con invariantes](docs/img/02-plan-esquema.png)
+
+Y cada estado tiene su propia prueba: compilar, publicar, funcionar en Player y leer de vuelta en Dataverse son pasos distintos.
+
+![Tabla de validación por estados y las tres decisiones que el agente devuelve a la persona](docs/img/03-estados-y-preguntas.png)
+
 ## Principios
 
 - El contrato vale más que el prompt.
